@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2626"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="192dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/base_de_datos" />
+
+    <TextView
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Base de datos "
+        android:textColor="@color/light_gray"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUsuarios"
+        android:layout_width="398dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#07D9F4"
+        android:text="Usuarios"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnProductos"
+        android:layout_width="387dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#08CEE7"
+        android:text="Productos"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnCrearUsuarios"
+        android:layout_width="388dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#05DCF8"
+        android:text="Crear usuarios"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnCrearProductos"
+        android:layout_width="394dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#0AD6F0"
+        android:text="Crear productos"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+</LinearLayout>
